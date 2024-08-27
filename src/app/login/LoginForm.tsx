@@ -3,8 +3,8 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import axios from 'axios'
+import { DOMAIN } from "@/utils/constants";
 type Props = {};
-const DOMAIN = "http://localhost:3000"
 const LoginForm = (props: Props) => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")

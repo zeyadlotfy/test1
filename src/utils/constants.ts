@@ -1,6 +1,6 @@
 export const ARTICLE_PER_PAGE = 6;
 
-const PRODUCTION_DOMAIN = "https://test1-gzp87uijm-zeyad-lotfys-projects.vercel.app"
+const PRODUCTION_DOMAIN = "https://test1-eight-lovat.vercel.app"
 const DEVELOPMENT_DOMAIN = "http://localhost:3000";
 
 export const DOMAIN = process.env.NODE_ENV === 'production'
